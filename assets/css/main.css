@@ -94,9 +94,6 @@ margin: 0 auto 3em auto;
 
 	body {
 		background-color: #000;
-		background-image: url("../../images/bg.jpg");
-		background-size: cover;
-		background-position: top center;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -682,7 +679,8 @@ margin: 0 auto 3em auto;
 					padding-top: 0;
 				}
 
-		ul.icons {
+		ul.icons {    
+			margin-bottom: 1rem;
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
@@ -1236,8 +1234,8 @@ margin: 0 auto 3em auto;
 
 /* Wrapper */
 
-	#wrapper {
-		max-width: 68em;
+	#wrapper {    background-image: url("../../images/bg.jpg");
+    background-size: cover;
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 2em;
@@ -1268,10 +1266,11 @@ margin: 0 auto 3em auto;
 
 	#header {
 		text-align: center;
-		padding: 6em 0 4em 0;
+		padding: 6em 0 1em 0;
 	}
 
 		#header h1 {
+			margin-bottom: 1rem;
 			color: rgba(255, 255, 255, 0.65);
 		}
 
