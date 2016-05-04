@@ -25,6 +25,8 @@
 
 	body {
 		line-height: 1;
+		background-image: url("../../images/bg.jpg");
+    background-size: cover;
 	}
 
 	ol, ul {
@@ -1234,8 +1236,7 @@ margin: 0 auto 3em auto;
 
 /* Wrapper */
 
-	#wrapper {    background-image: url("../../images/bg.jpg");
-    background-size: cover;
+	#wrapper {    
 		width: 100%;
 		margin: 0 auto;
 		padding: 0 2em;
